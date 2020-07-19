@@ -1,0 +1,1662 @@
+﻿Log file open, 07/06/20 22:16:23
+LogInit: Display: Running engine for game: firstgame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.953684
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce GTX 1660
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Madeincheese -epicuserid=bca6142b207148d29d71114de8c3e857 -epiclocale=zh-Hans
+LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:664][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:666][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.07-05.16.23:666][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.07-05.16.23:667][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.07-05.16.23:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.07-05.16.23:667][  0]LogHAL: Display: Platform has ~ 16 GB [17125621760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.07-05.16.23:667][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.07-05.16.23:667][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.07-05.16.23:668][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.07-05.16.23:669][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.07-05.16.23:669][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.07-05.16.23:669][  0]LogInit: Computer: DESKTOP-4O78A5T
+[2020.07.07-05.16.23:669][  0]LogInit: User: haoru
+[2020.07.07-05.16.23:669][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.07.07-05.16.23:669][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.07-05.16.23:669][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.07-05.16.23:669][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.07-05.16.23:669][  0]LogMemory: Process Physical Memory: 118.69 MB used, 118.69 MB peak
+[2020.07.07-05.16.23:669][  0]LogMemory: Process Virtual Memory: 97.51 MB used, 97.51 MB peak
+[2020.07.07-05.16.23:669][  0]LogMemory: Physical Memory: 6637.87 MB used,  9694.40 MB free, 16332.27 MB total
+[2020.07.07-05.16.23:669][  0]LogMemory: Virtual Memory: 5166.45 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.07.07-05.16.23:705][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.07-05.16.23:732][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.07-05.16.23:732][  0]LogInit: Using OS detected language (en-US).
+[2020.07.07-05.16.23:732][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.07-05.16.23:733][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.07-05.16.23:885][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.07-05.16.23:907][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.07-05.16.23:907][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.07-05.16.24:009][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.07-05.16.24:009][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.07-05.16.24:009][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.07-05.16.24:009][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.07-05.16.24:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
+[2020.07.07-05.16.24:065][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.07-05.16.24:067][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.07-05.16.24:067][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.07-05.16.24:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.07-05.16.24:076][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.07-05.16.24:077][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.07-05.16.24:077][  0]LogWindows: EnumDisplayDevices:
+[2020.07.07-05.16.24:077][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
+[2020.07.07-05.16.24:077][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.07-05.16.24:077][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.07-05.16.24:077][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.07-05.16.24:077][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.07-05.16.24:077][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2020.07.07-05.16.24:077][  0]LogD3D11RHI:   Driver Version: 451.48 (internal:27.21.14.5148, unified:451.48)
+[2020.07.07-05.16.24:077][  0]LogD3D11RHI:      Driver Date: 6-21-2020
+[2020.07.07-05.16.24:077][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.07.07-05.16.24:121][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.07-05.16.24:123][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.07-05.16.24:123][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.07-05.16.24:123][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.07-05.16.24:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.07-05.16.24:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.07-05.16.24:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.07-05.16.24:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.07-05.16.24:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.07-05.16.24:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.07-05.16.24:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.07-05.16.24:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.07-05.16.24:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.07-05.16.24:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.07-05.16.24:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.07-05.16.24:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.07-05.16.24:509][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.07-05.16.24:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.07-05.16.24:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.07-05.16.24:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.07-05.16.24:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.07-05.16.24:552][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.07-05.16.24:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.07-05.16.24:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.07-05.16.24:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.07-05.16.24:577][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.07-05.16.24:583][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.07-05.16.24:627][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/haoru/Documents/Unreal Projects/firstgame/Intermediate/Shaders/WorkingDirectory/23236/).
+[2020.07.07-05.16.24:627][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/haoru/AppData/Local/Temp/UnrealShaderWorkingDir/B42AEAB344C6F2DCB036378657474C8D/'.
+[2020.07.07-05.16.24:627][  0]LogXGEController: Cleaning working directory: C:/Users/haoru/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.07-05.16.24:628][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.07-05.16.24:628][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.07-05.16.24:628][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.07-05.16.25:293][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/haoru/Documents/Unreal Projects/firstgame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/haoru/Documents/Unreal Projects/firstgame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.07-05.16.25:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.07-05.16.25:348][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.07-05.16.25:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.07-05.16.25:348][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.07-05.16.25:349][  0]LogDerivedDataCache: Using Local data cache path C:/Users/haoru/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.07-05.16.25:349][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.07-05.16.25:349][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.07-05.16.25:393][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.07-05.16.25:393][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.07-05.16.25:413][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.07.07-05.16.25:623][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.07-05.16.25:714][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.07-05.16.25:714][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.07-05.16.25:714][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.07-05.16.25:714][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.07-05.16.25:714][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.07-05.16.25:726][  0]LogNetVersion: firstgame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3518325962)
+[2020.07.07-05.16.26:054][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B85AF51BC0), frame # 0
+[2020.07.07-05.16.26:054][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B85AE9CF40), frame # 0
+[2020.07.07-05.16.26:056][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B85AEF9E00), frame # 0
+[2020.07.07-05.16.26:098][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037527 seconds
+[2020.07.07-05.16.26:102][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.07-05.16.26:103][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.07-05.16.26:103][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.07-05.16.26:366][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.07-05.16.26:369][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.07-05.16.26:450][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.26:450][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.26:453][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.26:455][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.26:460][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.26:645][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.07-05.16.26:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.07-05.16.26:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.07-05.16.26:698][  0]LogOcInput: OculusInput pre-init called
+[2020.07.07-05.16.26:707][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.07-05.16.26:707][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.07-05.16.26:762][  0]LogEngine: Initializing Engine...
+[2020.07.07-05.16.26:763][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.07-05.16.26:763][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.07-05.16.26:764][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.07-05.16.26:855][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.07-05.16.26:862][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.07-05.16.26:862][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B85D633C00), frame # 0
+[2020.07.07-05.16.26:862][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B85D6BAAC0), frame # 0
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.16.26:874][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.16.26:874][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.16.26:874][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.16.26:875][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.16.26:884][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.16.26:884][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.16.26:884][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.16.26:884][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.16.26:884][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.16.26:885][  0]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.16.26:885][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.16.26:885][  0]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.16.26:922][  0]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.16.26:925][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.16.26:926][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.16.26:926][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.16.26:927][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.16.26:928][  0]LogInit: FAudioDevice initialized.
+[2020.07.07-05.16.26:928][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.07-05.16.27:006][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.07-05.16.27:010][  0]LogInit: Texture streaming: Enabled
+[2020.07.07-05.16.27:024][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.07-05.16.27:024][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={328F4849-40C9-AA82-E50C-E1BC0EB9B5B4}
+[2020.07.07-05.16.27:024][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.07-05.16.27:025][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.07-05.16.27:076][  0]LogInit: Transaction tracking system initialized
+[2020.07.07-05.16.27:093][  0]BlueprintLog: New page: Editor Load
+[2020.07.07-05.16.27:156][  0]LocalizationService: Localization service is disabled
+[2020.07.07-05.16.27:281][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.07-05.16.27:281][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.07-05.16.27:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/' took 0.01s
+[2020.07.07-05.16.27:536][  0]SourceControl: Source control is disabled
+[2020.07.07-05.16.27:536][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.590
+[2020.07.07-05.16.27:536][  0]Cmd: MAP LOAD FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.07-05.16.27:536][  0]LightingResults: New page: Lighting Build
+[2020.07.07-05.16.27:537][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.16.27:537][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.16.27:537][  0]MapCheck: New page: Map Check
+[2020.07.07-05.16.27:537][  0]LightingResults: New page: Lighting Build
+[2020.07.07-05.16.27:551][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B85D633C00), frame # 0
+[2020.07.07-05.16.27:551][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B85D6BAAC0), frame # 0
+[2020.07.07-05.16.27:552][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.07-05.16.27:797][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.16.27:797][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B852847E00), frame # 0
+[2020.07.07-05.16.27:797][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B8528AD1C0), frame # 0
+[2020.07.07-05.16.27:813][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.07-05.16.27:827][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.07-05.16.27:827][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.07-05.16.27:827][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.167ms to complete.
+[2020.07.07-05.16.27:827][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.292
+[2020.07.07-05.16.27:829][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.883
+[2020.07.07-05.16.27:970][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.16.27:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.16.27:982][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.16.27:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.16.27:992][  0]LogCollectionManager: Loaded 0 collections in 0.000756 seconds
+[2020.07.07-05.16.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Collections/' took 0.00s
+[2020.07.07-05.16.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/Developers/haoru/Collections/' took 0.00s
+[2020.07.07-05.16.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/Collections/' took 0.00s
+[2020.07.07-05.16.28:006][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3427 classes and 821 folders.
+[2020.07.07-05.16.28:008][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.07-05.16.28:038][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.07-05.16.28:039][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.07.07-05.16.28:071][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.07-05.16.28:073][  0]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.07-05.16.28:077][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.07-05.16.28:125][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.07-05.16.28:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.07-05.16.28:207][  0]LogLoad: (Engine Initialization) Total time: 6.26 seconds
+[2020.07.07-05.16.28:207][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.07-05.16.28:249][  0]LogAssetRegistry: Asset discovery search completed in 2.8374 seconds
+[2020.07.07-05.16.28:252][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.07.07-05.16.28:254][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.07-05.16.28:269][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.07-05.28.24:000][410]LogDirectoryWatcher: A directory notification failed for 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2020.07.07-05.28.24:000][410]LogDirectoryWatcher: A directory notification failed for 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/Developers/haoru/Collections/' because it could not be accessed. Aborting watch request...
+[2020.07.07-05.28.24:333][411]LogDirectoryWatcher: A directory notification failed for 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2020.07.07-05.30.31:600][ 43]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.07-05.30.31:625][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.07-05.30.31:673][ 43]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ThirdPersonExampleMap0F8499E84D011764E349E3BC06C79532.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.07.07-05.30.31:823][ 43]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ThirdPersonExampleMap_BuiltDataC51BC0AC43F1B169C606DAA7F6831526.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.07.07-05.30.31:835][ 43]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.07-05.30.31:835][ 43]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.07.07-05.30.31:835][ 43]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.07.07-05.30.41:005][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip
+[2020.07.07-05.30.41:031][118]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2020.07.07-05.30.41:337][118]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2020.07.07-05.30.41:337][118]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.07.07-05.30.41:431][118]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 98
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 88
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 78
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 68
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 58
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 38
+[2020.07.07-05.30.41:469][118]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 28
+[2020.07.07-05.30.41:469][118]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2020.07.07-05.30.41:512][118]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.07.07-05.30.41:523][118]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.07.07-05.30.41:687][118]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.30.41:688][118]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.07.07-05.30.41:774][118]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.30.42:222][118]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.07-05.30.44:023][184]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 116
+[2020.07.07-05.30.44:117][189]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 106
+[2020.07.07-05.30.44:442][205]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 96
+[2020.07.07-05.30.44:703][219]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 86
+[2020.07.07-05.30.44:720][220]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 76
+[2020.07.07-05.30.44:786][224]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 66
+[2020.07.07-05.30.44:902][230]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 57
+[2020.07.07-05.30.45:144][241]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 49
+[2020.07.07-05.30.46:493][313]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 42
+[2020.07.07-05.30.46:666][322]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 36
+[2020.07.07-05.30.46:956][337]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 31
+[2020.07.07-05.30.47:042][341]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 27
+[2020.07.07-05.30.47:242][352]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
+[2020.07.07-05.30.47:324][356]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.07.07-05.30.47:621][370]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2020.07.07-05.30.47:848][376]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.07.07-05.30.47:916][379]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.07.07-05.30.48:172][390]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2020.07.07-05.30.48:310][397]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.07.07-05.30.48:347][399]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2020.07.07-05.30.48:450][403]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.07.07-05.30.48:450][403]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.07.07-05.30.48:573][408]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.07.07-05.30.48:660][412]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.07.07-05.30.48:715][415]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.07.07-05.30.50:026][523]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Space_Ironsights.Aim_Space_Ironsights
+[2020.07.07-05.30.50:050][523]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.50:050][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.30.51:947][701]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.51:947][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.30.54:232][922]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.54:232][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.30.54:933][984]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2020.07.07-05.30.54:933][984]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2020.07.07-05.30.54:981][984]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2020.07.07-05.30.54:981][984]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.54:982][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.30.55:011][986]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2020.07.07-05.30.56:438][119]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2020.07.07-05.30.58:056][272]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights
+[2020.07.07-05.30.58:080][272]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.58:080][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.30.59:169][372]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2020.07.07-05.30.59:194][372]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.30.59:194][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.00:855][519]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2020.07.07-05.31.00:879][519]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.00:879][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.01:821][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2020.07.07-05.31.01:847][596]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.01:847][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.03:605][754]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2020.07.07-05.31.03:628][754]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.03:628][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.04:450][826]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.04:450][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.06:838][ 52]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_1.Hit_React_1
+[2020.07.07-05.31.06:861][ 52]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.06:861][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.08:488][207]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2020.07.07-05.31.08:512][207]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.08:512][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.10:300][373]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.10:300][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.11:574][493]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_2.Hit_React_2
+[2020.07.07-05.31.11:598][493]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.11:598][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.13:709][698]LogSlate: Window 'Hit_React_2' being destroyed
+[2020.07.07-05.31.13:715][698]LogSlate: Window 'Hit_React_2' being destroyed
+[2020.07.07-05.31.13:715][698]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.13:715][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.13:743][698]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.13:743][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.13:826][698]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.31.13:826][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.31.22:128][667]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.31.22:802][738]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.31.22:870][744]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCylinder)
+[2020.07.07-05.31.24:028][880]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2020.07.07-05.31.24:098][884]LogEditorViewport: Clicking on Actor (double click): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.31.24:990][986]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.31.25:071][994]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2020.07.07-05.31.25:799][ 78]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2020.07.07-05.31.25:887][ 87]LogEditorViewport: Clicking on Actor (double click): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.31.31:263][679]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.07.07-05.31.31:434][679]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.07.07-05.31.32:187][679]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.07-05.31.32:266][680]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.07-05.32.00:670][447]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy)
+[2020.07.07-05.32.03:282][753]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.32.23:048][986]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.07-05.32.23:098][986]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.07.07-05.32.23:121][986]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2020.07.07-05.32.23:121][986]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2020.07.07-05.32.23:176][990]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2020.07.07-05.32.23:188][991]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2020.07.07-05.32.23:208][992]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2020.07.07-05.32.23:234][994]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2020.07.07-05.32.25:407][246]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.07-05.32.32:491][ 28]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.32.32:506][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.07-05.32.32:506][ 28]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:32:32 PM)
+[2020.07.07-05.32.32:507][ 28]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.07-05.32.32:508][ 28]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.07-05.32.32:508][ 28]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.32.32:518][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009496s)
+[2020.07.07-05.32.32:518][ 28]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.32.32:519][ 28]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B90522FC00), frame # 15028
+[2020.07.07-05.32.32:519][ 28]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B905249300), frame # 15028
+[2020.07.07-05.32.32:519][ 28]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2020.07.07-05.32.32:519][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010654s)
+[2020.07.07-05.32.32:557][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.32.32:561][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.32.32:561][ 28]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.32.32:561][ 28]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.32.32:565][ 28]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.32.32:590][ 28]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.32.32:590][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.32.32:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.32.32:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.32.32:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.32.32:603][ 28]LogInit: FAudioDevice initialized.
+[2020.07.07-05.32.32:617][ 28]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.32.32:619][ 28]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.32.32
+[2020.07.07-05.32.32:619][ 28]LogWorld: Bringing up level for play took: 0.001845
+[2020.07.07-05.32.32:620][ 28]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.07.07-05.32.32:624][ 28]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.07.07-05.32.32:624][ 28]PIE: Server logged in
+[2020.07.07-05.32.32:626][ 28]PIE: Play in editor total start time 0.121 seconds.
+[2020.07.07-05.32.37:683][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.32.37:683][586]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.32.37:684][586]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.32.37:684][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.32.37:702][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.32.37:706][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.32.37:747][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.32.37:767][586]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B90522FC00), frame # 15586
+[2020.07.07-05.32.37:767][586]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B905249300), frame # 15586
+[2020.07.07-05.32.37:771][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.07.07-05.32.37:807][587]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.07.07-05.32.38:920][719]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.32.39:869][800]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.07-05.32.42:908][101]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.32.42:923][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.07-05.32.42:923][101]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:32:42 PM)
+[2020.07.07-05.32.42:962][101]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.32.42:971][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009076s)
+[2020.07.07-05.32.42:972][101]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.32.42:972][101]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B901DF7E00), frame # 16101
+[2020.07.07-05.32.42:972][101]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B901E02700), frame # 16101
+[2020.07.07-05.32.42:972][101]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2020.07.07-05.32.42:972][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010423s)
+[2020.07.07-05.32.43:001][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.32.43:003][101]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.32.43:003][101]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.32.43:003][101]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.32.43:007][101]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.32.43:028][101]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.32.43:028][101]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.32.43:028][101]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.32.43:028][101]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.32.43:028][101]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.32.43:041][101]LogInit: FAudioDevice initialized.
+[2020.07.07-05.32.43:048][101]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.32.43:050][101]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.32.43
+[2020.07.07-05.32.43:050][101]LogWorld: Bringing up level for play took: 0.001836
+[2020.07.07-05.32.43:051][101]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.07-05.32.43:053][101]PIE: Server logged in
+[2020.07.07-05.32.43:054][101]PIE: Play in editor total start time 0.132 seconds.
+[2020.07.07-05.32.46:654][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.32.46:654][524]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.32.46:654][524]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.32.46:654][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.32.46:661][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.32.46:665][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.32.46:704][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.32.46:705][524]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B901E02700), frame # 16524
+[2020.07.07-05.32.46:705][524]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B901DF7E00), frame # 16524
+[2020.07.07-05.32.46:708][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.07.07-05.32.46:745][525]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.07-05.40.40:758][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.07.07-05.40.40:807][251]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ThirdPersonExampleMap_Auto1EB744F22410CD11EA80A92995CACF061.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.07.07-05.40.40:809][251]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.077
+[2020.07.07-05.40.40:809][251]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.077
+[2020.07.07-05.44.58:034][ 23]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.07-05.44.58:035][ 23]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2020.07.07-05.45.05:563][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2020.07.07-05.45.05:563][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.07.07-05.45.05:563][879]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X256)
+[2020.07.07-05.45.05:577][879]LogActorComponent: RegisterComponentWithWorld: (/Game/AnimStarterPack/Showcase.Showcase:PersistentLevel.WorldSettings.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.07.07-05.45.05:978][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Can Jump' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:AnimGraph' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:AnimGraph' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:979][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Can Jump' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.05:986][879]LogMetaData: Removing '/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2020.07.07-05.45.06:435][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AnimStarterPack/BS_Jog" FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/BS_Jog.uasset" SILENT=true
+[2020.07.07-05.45.06:447][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/BS_Jog5189AF1D4274A70E222F5F885FABDA65.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/BS_Jog.uasset'
+[2020.07.07-05.45.06:469][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jog_Rt_Rifle95AD63C94DB78B26426256B21BCA82A1.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jog_Rt_Rifle.uasset'
+[2020.07.07-05.45.06:491][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jog_Lt_RifleEC9AD15544F786314F994FB5044C4E80.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jog_Lt_Rifle.uasset'
+[2020.07.07-05.45.06:515][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jog_Fwd_Rifle61752B7E4BCB4DF1B3F80F914F265BC7.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jog_Fwd_Rifle.uasset'
+[2020.07.07-05.45.06:538][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jog_Bwd_RifleEACBE4854D3E1D56E36A608291943AD9.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jog_Bwd_Rifle.uasset'
+[2020.07.07-05.45.06:560][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Aim_Space_Ironsights3459A7694D43AE319B141BAC9C0F522C.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Aim_Space_Ironsights.uasset'
+[2020.07.07-05.45.06:663][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/SK_Mannequin276BF040437DF3C8871B66B70CA624CE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2020.07.07-05.45.06:690][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/SK_Mannequin_PhysicsAsset388928E949774DE04677908C243C2A6F.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2020.07.07-05.45.06:717][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/M_UE4Man_ChestLogoFFA415BF4607EE8AAE33A49BA66A3640.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset'
+[2020.07.07-05.45.06:739][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4Man_Logo_NB28242264ACD12B0573CD5AC7F802F52.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset'
+[2020.07.07-05.45.06:772][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/M_UE4Man_Body04B1CC1543D3DDD9E7553EA74E99EE95.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.uasset'
+[2020.07.07-05.45.06:791][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin_occlusion_Mobile5415CF4A4EB04CB204E843BB873CE88D.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2020.07.07-05.45.06:811][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin_MAT_MASKAC3759C7B47A3A7A7F332299C630333DB.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2020.07.07-05.45.06:860][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin__normalsB4A44B3342DD3EE433D7A18DC9317659.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset'
+[2020.07.07-05.45.06:866][879]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.07.07-05.45.06:884][879]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.07-05.45.06:918][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ML_SoftMetal_UE4C06E58A64A19B8D05404A88621416036.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2020.07.07-05.45.06:935][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/T_ML_Aluminum01_NC65E1CD54E45BA932858FAB3B380C0FD.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2020.07.07-05.45.06:962][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/T_ML_Aluminum01CBA97B194A5C572C967F64BC886D63F6.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2020.07.07-05.45.06:966][879]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.07.07-05.45.06:984][879]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 34
+[2020.07.07-05.45.07:023][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ML_Plastic_Shiny_Beige_LOGO9ADAD8EF4D2244990F6CD68329295675.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2020.07.07-05.45.07:047][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_LOGO_CARD4F3FE6B3468A899021C0C7970C15799F.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset'
+[2020.07.07-05.45.07:052][879]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.07.07-05.45.07:108][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ML_Plastic_Shiny_Beige0660185C4BE68E9F9C2D39B57CFD39CE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2020.07.07-05.45.07:111][879]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.07.07-05.45.07:172][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ML_GlossyBlack_Latex_UE4778A506A4C23EA9F1B4B34A90E37B2AC.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2020.07.07-05.45.07:201][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/T_ML_Rubber_Blue_01_N4A9B00DF4684E2EF9012DD90FCEEEEDF.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2020.07.07-05.45.07:244][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/T_ML_Rubber_Blue_01_D0987E24D4A847AD5E2CA31A1D823625E.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2020.07.07-05.45.07:286][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Aim_Space_HipF8D8D24C425F622542CD94B60A49F804.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Aim_Space_Hip.uasset'
+[2020.07.07-05.45.07:309][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin_Skeleton7408147348F6B63F3517F98321EF6332.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.07.07-05.45.07:352][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Idle_Rifle_Hip76F5705641ACBEEA09FEE586D7B452FD.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:391][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Idle_Rifle_Ironsights055FC6654E9D75C75165C3BCFAF17B23.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.07:431][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_to_Stand_Rifle_HipEED9CF3B4933D32AE77A3D83357A5C12.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:467][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Bwd_Rifle_HipEAAFC9F8435CD8C9B859A892C1713C47.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:506][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_to_Stand_Rifle_IronsightsB269CA274B2933AF2DAF4389F92D64D8.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.07:548][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Bwd_Rifle_Ironsights8D27ADDD4D30384A215AC78B9390BB15.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.07:590][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Hit_React_15EE670DF4D9B0BE67A4EC6A0D2E2E2E6.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Hit_React_1.uasset'
+[2020.07.07-05.45.07:627][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Fire_Shotgun_Ironsights185A28A24788C0D8B18BAABF5050860A.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Fire_Shotgun_Ironsights.uasset'
+[2020.07.07-05.45.07:666][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Hit_React_20FEB715C4A18EC7EE04D93A824755F6F.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Hit_React_2.uasset'
+[2020.07.07-05.45.07:711][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Idle_Rifle_HipF5272DFC476960BC6A8AA8904287D004.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:747][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jump_From_Jog700EFB3F413D65442A3014ABA8C7044D.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jump_From_Jog.uasset'
+[2020.07.07-05.45.07:787][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jump_From_Stand47F700FC44FF1BA2C375CBA20F70FC99.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jump_From_Stand.uasset'
+[2020.07.07-05.45.07:824][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Fwd_Rifle_Hip0853ABC048944783FFECD18A4041C0D8.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:859][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Lt_Rifle_HipA717EB1C4598D7F1C9C4EA9B3366E146.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:894][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Rt_Rifle_HipC793FBC84C7E6A849EDCA9899A9715F1.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset'
+[2020.07.07-05.45.07:937][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/BS_CrouchWalk252897F545C36754531CABB4BBC00340.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/BS_CrouchWalk.uasset'
+[2020.07.07-05.45.08:056][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4ASP_HeroTPP_AnimBlueprint7799A20E49EDF66017A2B9B62374BEF0.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2020.07.07-05.45.08:138][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Ue4ASP_Character29A5067549ABCB4CD09D019AB291A381.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.uasset'
+[2020.07.07-05.45.08:172][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Fwd_Rifle_Ironsights7EF416F04012844A187E3AAC923CF6CE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.08:204][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Lt_Rifle_IronsightsB578E9B44CE747CEE67CB58CB721DA0B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.08:291][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2020.07.07-05.45.08:292][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Crouch_Walk_Rt_Rifle_Ironsights72426E6B4B87CEF290EE48B2BD750F03.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.08:308][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AnimStarterPack/Death_1" FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_1.uasset" SILENT=true
+[2020.07.07-05.45.08:405][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_1.Death_1
+[2020.07.07-05.45.08:405][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Death_15CA795EF443F1931AABB81A243D76A84.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_1.uasset'
+[2020.07.07-05.45.08:422][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AnimStarterPack/Death_2" FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_2.uasset" SILENT=true
+[2020.07.07-05.45.08:517][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_2.Death_2
+[2020.07.07-05.45.08:517][879]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 97
+[2020.07.07-05.45.08:517][879]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 87
+[2020.07.07-05.45.08:517][879]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 77
+[2020.07.07-05.45.08:518][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Death_290D6235A4D01B6E006CCE2ACCC062228.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_2.uasset'
+[2020.07.07-05.45.08:567][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AnimStarterPack/Death_3" FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_3.uasset" SILENT=true
+[2020.07.07-05.45.08:674][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_3.Death_3
+[2020.07.07-05.45.08:675][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Death_3101E8E694946A1DB78A7A29B70F0C0D4.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_3.uasset'
+[2020.07.07-05.45.08:781][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_Ironsights_1.Death_Ironsights_1
+[2020.07.07-05.45.08:781][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 67
+[2020.07.07-05.45.08:798][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Death_Ironsights_145D1213F457371A69A9D15A0E743C64B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_Ironsights_1.uasset'
+[2020.07.07-05.45.08:908][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_Ironsights_2.Death_Ironsights_2
+[2020.07.07-05.45.08:908][879]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 58
+[2020.07.07-05.45.08:908][879]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 50
+[2020.07.07-05.45.08:908][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Death_Ironsights_2E157932C444D2CA1C8E44BB71F5DA14E.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Death_Ironsights_2.uasset'
+[2020.07.07-05.45.09:014][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Equip_Pistol_Standing.Equip_Pistol_Standing
+[2020.07.07-05.45.09:030][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Equip_Pistol_Standing721BC804499BB955EC5B638DFF0FD00B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Equip_Pistol_Standing.uasset'
+[2020.07.07-05.45.09:132][879]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 43
+[2020.07.07-05.45.09:133][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2020.07.07-05.45.09:133][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Equip_Rifle_Standing1A5A60B749A27FCAF906B3A0A926C8B3.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Equip_Rifle_Standing.uasset'
+[2020.07.07-05.45.09:181][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Hip.Fire_Rifle_Hip
+[2020.07.07-05.45.09:181][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Fire_Rifle_HipFA4E85774EC9891C80C6C7B3984747AC.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Fire_Rifle_Hip.uasset'
+[2020.07.07-05.45.09:217][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.07.07-05.45.09:217][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 37
+[2020.07.07-05.45.09:228][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Fire_Rifle_IronsightsD717B0DE45A1B521C3126C88163A375B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Fire_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.09:332][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Shotgun_Hip.Fire_Shotgun_Hip
+[2020.07.07-05.45.09:332][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Fire_Shotgun_Hip3D252AA44785E365B1322BA7AD2C62C1.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Fire_Shotgun_Hip.uasset'
+[2020.07.07-05.45.09:401][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_3.Hit_React_3
+[2020.07.07-05.45.09:402][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Hit_React_3971829A1490491EBEF7B0E8002BEA2F5.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Hit_React_3.uasset'
+[2020.07.07-05.45.09:474][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_4.Hit_React_4
+[2020.07.07-05.45.09:474][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Hit_React_4A857CAA74DC318AC71DAE39821B763CE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Hit_React_4.uasset'
+[2020.07.07-05.45.09:662][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2020.07.07-05.45.09:679][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Idle_Pistol0BB3A6524465E0BB6B4E36BCD50CA2FA.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Idle_Pistol.uasset'
+[2020.07.07-05.45.09:862][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2020.07.07-05.45.09:876][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Idle_Rifle_Hip_Break17F4EC2634D4FF731044431A93B69795E.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset'
+[2020.07.07-05.45.10:062][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break2.Idle_Rifle_Hip_Break2
+[2020.07.07-05.45.10:062][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Idle_Rifle_Hip_Break204DFC3704F924906FE033FBD80DAF5D3.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset'
+[2020.07.07-05.45.10:260][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2020.07.07-05.45.10:260][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Idle_Rifle_IronsightsB503D46E4631C172796F39B20EA792C7.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.10:342][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2020.07.07-05.45.10:342][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Jump_From_Stand_IronsightsB861A1244FD1CB4DAFC150BBA62DDF9B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Jump_From_Stand_Ironsights.uasset'
+[2020.07.07-05.45.10:406][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Death_1.Prone_Death_1
+[2020.07.07-05.45.10:406][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Death_102468C6A4405604BAD8905B6ECD870A5.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Death_1.uasset'
+[2020.07.07-05.45.10:497][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Death_2.Prone_Death_2
+[2020.07.07-05.45.10:517][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Death_2787F91614099AE9F64B961B9949F2C23.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Death_2.uasset'
+[2020.07.07-05.45.10:567][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Fire_1.Prone_Fire_1
+[2020.07.07-05.45.10:567][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Fire_1C98B9D774E23F019C310CEBC3FAB4F44.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Fire_1.uasset'
+[2020.07.07-05.45.10:613][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Fire_2.Prone_Fire_2
+[2020.07.07-05.45.10:613][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Fire_2BB54F14F4E0AEB1DD329EE9701E68BE4.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Fire_2.uasset'
+[2020.07.07-05.45.10:630][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AnimStarterPack/Prone_Idle" FILE="C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Idle.uasset" SILENT=true
+[2020.07.07-05.45.10:864][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Idle.Prone_Idle
+[2020.07.07-05.45.10:884][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Idle9FC8F5824EC621AA9CF96BA5A7F5994C.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Idle.uasset'
+[2020.07.07-05.45.11:036][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Reload_Rifle.Prone_Reload_Rifle
+[2020.07.07-05.45.11:036][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2020.07.07-05.45.11:037][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Reload_RifleF89A267A440181198364F3A6784D4080.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Reload_Rifle.uasset'
+[2020.07.07-05.45.11:205][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Reload_Shotgun.Prone_Reload_Shotgun
+[2020.07.07-05.45.11:222][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_Reload_Shotgun6E863AE342191568E6EA1B82DEA5C0B3.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_Reload_Shotgun.uasset'
+[2020.07.07-05.45.11:321][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_To_Stand.Prone_To_Stand
+[2020.07.07-05.45.11:322][879]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.07.07-05.45.11:322][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Prone_To_Stand32DF981F4A5C105DE8B9BDBFA8B048EF.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Prone_To_Stand.uasset'
+[2020.07.07-05.45.11:413][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Pistol.Reload_Pistol
+[2020.07.07-05.45.11:414][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Reload_Pistol88BEE8A94DA0E80AABC42C8F65209CAE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Reload_Pistol.uasset'
+[2020.07.07-05.45.11:418][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.07.07-05.45.11:528][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.07.07-05.45.11:528][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Reload_Rifle_Hip0BA796A14733DE84B0A9CC97FEDD4C4B.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Hip.uasset'
+[2020.07.07-05.45.11:632][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2020.07.07-05.45.11:632][879]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.07.07-05.45.11:649][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Reload_Rifle_Ironsights9BBF2B52422100A4D54866BC269673B2.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.11:843][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Shotgun_Hip.Reload_Shotgun_Hip
+[2020.07.07-05.45.11:845][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Reload_Shotgun_Hip6C0210584C75028197D997B9144CE26A.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Reload_Shotgun_Hip.uasset'
+[2020.07.07-05.45.12:046][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2020.07.07-05.45.12:048][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Reload_Shotgun_Ironsights6D2614534DBCB084B7E38FA3E6AF2F3E.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Reload_Shotgun_Ironsights.uasset'
+[2020.07.07-05.45.12:053][879]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/AnimStarterPack/Showcase.Showcase:PersistentLevel.WorldSettings.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.07.07-05.45.12:106][879]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.07.07-05.45.12:170][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/ShowcaseC2C4A2114C9A34DAB29E9291863D4F49.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Showcase.umap'
+[2020.07.07-05.45.12:186][879]LogFileHelpers: Saving map 'Showcase' took 0.135
+[2020.07.07-05.45.12:196][879]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.07-05.45.12:250][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2020.07.07-05.45.12:267][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Sprint_Fwd_RifleC6A09C5946CF668DF2831C8BC53FED33.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Sprint_Fwd_Rifle.uasset'
+[2020.07.07-05.45.12:326][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2020.07.07-05.45.12:326][879]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.07.07-05.45.12:326][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Stand_to_Crouch_Rifle_HipFEAC2B7E48224C3CFDD1BC89C3231B7F.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset'
+[2020.07.07-05.45.12:348][879]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.07.07-05.45.12:404][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2020.07.07-05.45.12:404][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2020.07.07-05.45.12:404][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Stand_to_Crouch_Rifle_Ironsights4847651C49A11E87210E86B36D8D396D.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.12:413][879]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.07.07-05.45.12:475][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_To_Prone.Stand_To_Prone
+[2020.07.07-05.45.12:489][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Stand_To_Prone24EF13AB4772DB88D99477A3AD8C9DA1.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Stand_To_Prone.uasset'
+[2020.07.07-05.45.12:604][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2020.07.07-05.45.12:604][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Walk_Bwd_Rifle_Ironsights0CA10D554D723694D5E61899357CDE9D.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.12:608][879]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.07-05.45.12:620][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.07.07-05.45.12:676][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2020.07.07-05.45.12:694][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Walk_Fwd_Rifle_Ironsights5D00B6854B640389B602748042197433.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.12:800][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2020.07.07-05.45.12:801][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Walk_Lt_Rifle_Ironsights89D2552A4EE3BCA3D7627B86C18D89FE.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.12:876][879]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2020.07.07-05.45.12:895][879]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/Walk_Rt_Rifle_IronsightsADFFBAB14CA01F469E8067A8A5E68422.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset'
+[2020.07.07-05.45.13:152][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.07.07-05.45.13:153][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.07-05.45.13:153][879]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.07.07-05.45.13:153][879]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.07.07-05.45.23:449][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.07.07-05.45.23:473][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:493][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.23:515][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.23:536][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.23:557][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:579][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.23:602][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.23:625][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.23:645][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.23:672][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:693][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.07.07-05.45.23:715][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.23:736][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.23:757][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:778][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.07-05.45.23:799][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.07.07-05.45.23:820][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.23:844][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.23:865][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.23:890][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.23:913][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.07.07-05.45.23:935][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:960][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.23:982][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:003][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.07-05.45.24:024][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:046][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:067][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:091][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:115][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:135][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:159][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:179][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:202][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:224][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:246][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:267][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:289][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:311][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:332][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:355][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.07-05.45.24:376][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.24:397][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.24:418][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.24:438][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:459][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.24:483][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.24:506][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.07.07-05.45.24:527][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:549][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:571][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:591][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:613][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:635][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:658][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:680][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:701][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.24:724][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.24:744][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.24:764][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:785][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.24:807][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:827][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.24:848][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.07-05.45.24:869][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.07-05.45.24:893][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.07-05.45.24:914][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.07-05.45.24:937][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.24:960][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.24:981][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.25:003][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:025][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.07-05.45.25:046][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.25:068][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:090][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.07.07-05.45.25:111][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.25:133][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:157][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.07-05.45.25:178][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:198][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:218][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.07-05.45.25:241][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.07-05.45.25:265][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.07-05.45.25:286][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.07-05.45.25:316][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.07.07-05.45.25:338][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.07-05.45.25:859][879]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating BlendSpace /Game/ThirdPersonBP/AnimStarterPack/BS_Jog.BS_Jog
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Aim_Space_Ironsights.Aim_Space_Ironsights
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating SkeletalMesh /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating PhysicsAsset /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.UE4Man_Logo_N
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating MaterialFunction /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating MaterialFunction /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD
+[2020.07.07-05.45.25:859][879]LogContentValidation: Display: Validating MaterialFunction /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating MaterialFunction /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating Skeleton /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Hit_React_1.Hit_React_1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Hit_React_2.Hit_React_2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating BlendSpace /Game/ThirdPersonBP/AnimStarterPack/BS_CrouchWalk.BS_CrouchWalk
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_1.Death_1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_2.Death_2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_3.Death_3
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_Ironsights_1.Death_Ironsights_1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_Ironsights_2.Death_Ironsights_2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Equip_Pistol_Standing.Equip_Pistol_Standing
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Fire_Rifle_Hip.Fire_Rifle_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Fire_Shotgun_Hip.Fire_Shotgun_Hip
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Hit_React_3.Hit_React_3
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Hit_React_4.Hit_React_4
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Hip_Break2.Idle_Rifle_Hip_Break2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Death_1.Prone_Death_1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Death_2.Prone_Death_2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Fire_1.Prone_Fire_1
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Fire_2.Prone_Fire_2
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Idle.Prone_Idle
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Reload_Rifle.Prone_Reload_Rifle
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_Reload_Shotgun.Prone_Reload_Shotgun
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Prone_To_Stand.Prone_To_Stand
+[2020.07.07-05.45.25:860][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Pistol.Reload_Pistol
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Shotgun_Hip.Reload_Shotgun_Hip
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/AnimStarterPack/Showcase.Showcase
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Stand_To_Prone.Stand_To_Prone
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2020.07.07-05.45.25:861][879]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2020.07.07-05.45.48:544][816]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.07-05.45.48:544][816]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.07-05.45.59:795][899]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Death_1.Death_1
+[2020.07.07-05.45.59:803][899]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.45.59:857][899]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.46.00:147][899]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.07-05.46.02:304][ 68]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.02:304][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.04:117][224]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.04:117][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.05:902][375]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.05:903][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.09:478][684]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.09:478][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.11:400][850]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.11:400][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.12:433][938]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.12:433][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.18:431][462]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.18:431][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.20:445][636]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.20:445][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.21:338][709]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.21:338][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.22:672][823]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.22:673][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.24:934][ 16]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.24:934][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.25:816][ 88]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.25:816][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.28:053][279]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.28:053][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.32:817][705]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.32:818][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.35:348][926]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.35:349][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.39:512][299]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.39:512][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.40:734][399]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.40:734][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.42:314][532]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.42:314][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.43:996][673]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.43:996][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.44:847][742]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.44:847][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.46:326][866]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.46:326][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.47:995][  3]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.47:995][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.48:707][ 58]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.48:707][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.50:924][251]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.50:924][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.52:954][426]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.52:955][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.46.57:679][845]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.46.57:679][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.02:442][266]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.02:442][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.04:067][401]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.04:067][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.05:155][490]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.05:155][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.08:805][810]LogSlate: Window 'Reload_Pistol' being destroyed
+[2020.07.07-05.47.08:811][810]LogSlate: Window 'Reload_Pistol' being destroyed
+[2020.07.07-05.47.08:831][810]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.08:831][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.08:894][810]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.08:894][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.08:928][810]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.08:928][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.47.09:016][810]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.47.09:016][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.49.47:277][604]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2020.07.07-05.49.47:285][604]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.49.47:669][604]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.50.19:407][423]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2020.07.07-05.50.19:411][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.50.19:439][423]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.50.19:710][423]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.07-05.51.30:581][815]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.51.30:581][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.51.30:689][815]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.51.30:689][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.51.42:624][ 58]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2020.07.07-05.51.42:628][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_66:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.51.42:655][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_66:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.51.42:925][ 58]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.07-05.52.18:427][828]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.07-05.52.18:435][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_69:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.52.18:756][828]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_69:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.52.28:579][712]LogSlate: Window 'UE4ASP_HeroTPP_AnimBlueprint' being destroyed
+[2020.07.07-05.52.28:585][712]LogSlate: Window 'UE4ASP_HeroTPP_AnimBlueprint' being destroyed
+[2020.07.07-05.52.28:652][712]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:652][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:660][712]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:660][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:786][712]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:786][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:803][712]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:803][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:916][712]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:916][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:960][712]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:960][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.28:968][712]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.28:968][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.29:096][712]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.52.29:096][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.52.29:699][783]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.52.33:062][130]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.07-05.52.52:862][125]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.52.53:845][234]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.07-05.52.53:921][241]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2020.07.07-05.52.55:186][388]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2020.07.07-05.52.57:140][611]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.07.07-05.53.03:361][ 36]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.07.07-05.53.03:367][ 36]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.07.07-05.53.03:374][ 36]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.53.03:374][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.53.04:682][169]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.53.04:698][169]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.07.07-05.53.04:698][169]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2020.07.07-05.53.04:834][169]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2020.07.07-05.53.04:844][169]LogPlayLevel: PlayLevel: Blueprint regeneration took 146 ms (1 blueprints)
+[2020.07.07-05.53.04:844][169]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:53:04 PM)
+[2020.07.07-05.53.04:882][169]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.53.04:891][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009558s)
+[2020.07.07-05.53.04:892][169]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.53.04:893][169]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B906665200), frame # 49169
+[2020.07.07-05.53.04:893][169]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B900D0D440), frame # 49169
+[2020.07.07-05.53.04:893][169]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2020.07.07-05.53.04:893][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011108s)
+[2020.07.07-05.53.04:964][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.53.04:965][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.53.04:965][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.53.04:966][169]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.53.04:966][169]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.53.04:969][169]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.53.04:993][169]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.53.04:993][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.53.04:993][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.53.04:993][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.53.04:994][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.53.05:005][169]LogInit: FAudioDevice initialized.
+[2020.07.07-05.53.05:013][169]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.53.05:016][169]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.53.05
+[2020.07.07-05.53.05:016][169]LogWorld: Bringing up level for play took: 0.002325
+[2020.07.07-05.53.05:016][169]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2020.07.07-05.53.05:018][169]PIE: Server logged in
+[2020.07.07-05.53.05:019][169]PIE: Play in editor total start time 0.322 seconds.
+[2020.07.07-05.53.14:853][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.53.14:853][288]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.53.14:854][288]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.53.14:854][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.53.14:859][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.53.14:863][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.53.14:876][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.53.14:897][288]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B900D0D440), frame # 50288
+[2020.07.07-05.53.14:897][288]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B906665200), frame # 50288
+[2020.07.07-05.53.14:899][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.07.07-05.53.14:937][289]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2020.07.07-05.53.22:755][208]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.53.22:770][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.07-05.53.22:770][208]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:53:22 PM)
+[2020.07.07-05.53.22:802][208]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.53.22:811][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009175s)
+[2020.07.07-05.53.22:812][208]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.53.22:812][208]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B988D0AE00), frame # 51208
+[2020.07.07-05.53.22:812][208]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B9035EF100), frame # 51208
+[2020.07.07-05.53.22:813][208]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2020.07.07-05.53.22:813][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010771s)
+[2020.07.07-05.53.22:832][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.53.22:834][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.53.22:834][208]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.53.22:834][208]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.53.22:838][208]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.53.22:860][208]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.53.22:860][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.53.22:860][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.53.22:860][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.53.22:861][208]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.53.22:872][208]LogInit: FAudioDevice initialized.
+[2020.07.07-05.53.22:880][208]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.53.22:882][208]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.53.22
+[2020.07.07-05.53.22:882][208]LogWorld: Bringing up level for play took: 0.001830
+[2020.07.07-05.53.22:883][208]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2020.07.07-05.53.22:885][208]PIE: Server logged in
+[2020.07.07-05.53.22:886][208]PIE: Play in editor total start time 0.116 seconds.
+[2020.07.07-05.53.29:493][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.53.29:493][995]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.53.29:494][995]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.53.29:494][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.53.29:500][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.53.29:504][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.53.29:519][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.53.29:537][995]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B9035EF100), frame # 51995
+[2020.07.07-05.53.29:537][995]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B988D0AE00), frame # 51995
+[2020.07.07-05.53.29:539][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.07.07-05.53.29:569][996]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2020.07.07-05.53.38:544][942]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.07.07-05.53.38:550][942]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_72:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.53.38:630][942]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_72:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.53.41:028][137]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.07.07-05.53.41:031][137]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_73:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.53.41:060][137]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_73:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.53.56:226][812]Cmd: TRANSACTION UNDO
+[2020.07.07-05.53.56:226][812]LogEditorTransaction: Undo Add Socket to Skeleton
+[2020.07.07-05.53.56:374][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_72:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.53.56:376][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_73:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.54.48:748][890]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin_Skeleton6AFF1B094B102140A8B149B4795EF283.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.07.07-05.54.48:764][890]AssetCheck: New page: Asset Save: UE4_Mannequin_Skeleton
+[2020.07.07-05.54.48:764][890]LogContentValidation: Display: Validating Skeleton /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.07.07-05.54.50:465][ 80]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2020.07.07-05.54.50:470][ 80]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2020.07.07-05.54.50:502][ 80]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.54.50:502][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.54.50:630][ 80]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.54.50:630][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.54.51:188][128]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.54.51:202][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.07-05.54.51:202][128]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:54:51 PM)
+[2020.07.07-05.54.51:242][128]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.54.51:251][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008930s)
+[2020.07.07-05.54.51:252][128]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.54.51:252][128]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B9A0DE1000), frame # 60128
+[2020.07.07-05.54.51:252][128]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B87F167880), frame # 60128
+[2020.07.07-05.54.51:252][128]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2020.07.07-05.54.51:252][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010389s)
+[2020.07.07-05.54.51:276][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.54.51:287][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.54.51:287][128]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.54.51:287][128]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.54.51:291][128]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.54.51:313][128]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.54.51:313][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.54.51:313][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.54.51:313][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.54.51:314][128]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.54.51:326][128]LogInit: FAudioDevice initialized.
+[2020.07.07-05.54.51:336][128]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.54.51:339][128]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.54.51
+[2020.07.07-05.54.51:339][128]LogWorld: Bringing up level for play took: 0.002976
+[2020.07.07-05.54.51:340][128]LogOnline: OSS: Creating online subsystem instance for: :Context_80
+[2020.07.07-05.54.51:342][128]PIE: Server logged in
+[2020.07.07-05.54.51:343][128]PIE: Play in editor total start time 0.142 seconds.
+[2020.07.07-05.55.11:733][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.55.11:733][569]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.55.11:733][569]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.55.11:734][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.55.11:744][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.55.11:747][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.55.11:778][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.55.11:779][569]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B87F167880), frame # 62569
+[2020.07.07-05.55.11:779][569]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B9A0DE1000), frame # 62569
+[2020.07.07-05.55.11:781][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.07.07-05.55.11:813][570]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2020.07.07-05.55.25:544][207]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+[2020.07.07-05.55.25:580][207]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2020.07.07-05.55.25:595][207]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_75:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.55.29:628][429]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2020.07.07-05.55.29:631][429]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_76:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.55.29:661][429]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_76:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.55.32:843][717]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ThirdPersonBP/AnimStarterPack/BS_Jog.BS_Jog
+[2020.07.07-05.55.32:846][717]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_77:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.55.32:872][717]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_77:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.55.33:142][717]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.07-05.56.01:115][601]LogSlate: Window 'BS_Jog' being destroyed
+[2020.07.07-05.56.01:124][601]LogSlate: Window 'BS_Jog' being destroyed
+[2020.07.07-05.56.01:152][601]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.01:153][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.01:270][601]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.01:270][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.01:391][601]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.01:391][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.01:500][601]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.01:500][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.03:361][811]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.07.07-05.56.03:367][811]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_79:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.07-05.56.03:447][811]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_79:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.07-05.56.23:558][940]LogSavePackage: Moving 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Saved/UE4_Mannequin_SkeletonB28F7C464E06CCE4B1D0F08A297991AF.tmp' to 'C:/Users/haoru/Documents/Unreal Projects/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2020.07.07-05.56.23:572][940]AssetCheck: New page: Asset Save: UE4_Mannequin_Skeleton
+[2020.07.07-05.56.23:572][940]LogContentValidation: Display: Validating Skeleton /Game/ThirdPersonBP/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2020.07.07-05.56.24:911][ 92]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2020.07.07-05.56.24:921][ 92]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2020.07.07-05.56.24:942][ 92]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.24:942][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.25:738][171]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.07-05.56.25:753][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.07-05.56.25:753][171]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 6, 2020, 3:56:25 PM)
+[2020.07.07-05.56.25:792][171]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.56.25:803][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010980s)
+[2020.07.07-05.56.25:804][171]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.07-05.56.25:804][171]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B8BE985800), frame # 70171
+[2020.07.07-05.56.25:804][171]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B9A12DE340), frame # 70171
+[2020.07.07-05.56.25:804][171]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2020.07.07-05.56.25:804][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012299s)
+[2020.07.07-05.56.25:880][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.07-05.56.25:890][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.07-05.56.25:890][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.07-05.56.25:891][171]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.07-05.56.25:891][171]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 1: FrontRight
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 4: BackLeft
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 5: BackRight
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 6: SideLeft
+[2020.07.07-05.56.25:894][171]LogAudioMixer: Display: 7: SideRight
+[2020.07.07-05.56.25:918][171]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.07-05.56.25:918][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.07-05.56.25:919][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.07-05.56.25:919][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.07-05.56.25:919][171]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.07-05.56.25:931][171]LogInit: FAudioDevice initialized.
+[2020.07.07-05.56.25:939][171]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.07-05.56.25:941][171]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.06-22.56.25
+[2020.07.07-05.56.25:941][171]LogWorld: Bringing up level for play took: 0.001852
+[2020.07.07-05.56.25:941][171]LogOnline: OSS: Creating online subsystem instance for: :Context_86
+[2020.07.07-05.56.25:943][171]PIE: Server logged in
+[2020.07.07-05.56.25:944][171]PIE: Play in editor total start time 0.192 seconds.
+[2020.07.07-05.56.40:253][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.56.40:253][881]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.07-05.56.40:253][881]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.07-05.56.40:254][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.40:261][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.07-05.56.40:265][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.07-05.56.40:306][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.07-05.56.40:308][881]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B9A12DE340), frame # 71881
+[2020.07.07-05.56.40:308][881]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B8BE985800), frame # 71881
+[2020.07.07-05.56.40:328][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.07.07-05.56.40:359][882]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2020.07.07-05.57.00:607][127]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.07-05.57.05:459][696]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Shotgun.Shotgun
+[2020.07.07-05.57.08:086][928]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2020.07.07-05.57.08:086][928]LogWindows: Windows GetLastError: The operation completed successfully. (0)
