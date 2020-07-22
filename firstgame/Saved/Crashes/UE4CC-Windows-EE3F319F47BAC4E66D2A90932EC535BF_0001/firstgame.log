@@ -1,0 +1,798 @@
+﻿Log file open, 07/22/20 14:11:10
+LogInit: Display: Running engine for game: firstgame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.953724
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce GTX 1660
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Madeincheese -epicuserid=bca6142b207148d29d71114de8c3e857 -epiclocale=zh-Hans
+LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:233][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.22-21.11.10:233][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.22-21.11.10:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:234][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.22-21.11.10:236][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.22-21.11.10:237][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.22-21.11.10:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.22-21.11.10:237][  0]LogHAL: Display: Platform has ~ 16 GB [17125621760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.22-21.11.10:237][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.22-21.11.10:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Scalability.ini]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.22-21.11.10:238][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.22-21.11.10:238][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.22-21.11.10:239][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.22-21.11.10:239][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.22-21.11.10:239][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Config/Windows/Engine.ini]
+[2020.07.22-21.11.10:239][  0]LogInit: Computer: DESKTOP-4O78A5T
+[2020.07.22-21.11.10:239][  0]LogInit: User: haoru
+[2020.07.22-21.11.10:239][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.07.22-21.11.10:239][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.22-21.11.10:239][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.22-21.11.10:239][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.22-21.11.10:239][  0]LogMemory: Process Physical Memory: 115.75 MB used, 115.75 MB peak
+[2020.07.22-21.11.10:239][  0]LogMemory: Process Virtual Memory: 97.22 MB used, 97.22 MB peak
+[2020.07.22-21.11.10:239][  0]LogMemory: Physical Memory: 9552.22 MB used,  6780.04 MB free, 16332.27 MB total
+[2020.07.22-21.11.10:239][  0]LogMemory: Virtual Memory: 5165.90 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.07.22-21.11.10:278][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.22-21.11.10:304][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.22-21.11.10:307][  0]LogInit: Using OS detected language (en-US).
+[2020.07.22-21.11.10:307][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.22-21.11.10:308][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.22-21.11.10:493][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.22-21.11.10:526][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.22-21.11.10:526][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.22-21.11.10:639][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.22-21.11.10:639][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.22-21.11.10:639][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.22-21.11.10:639][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.22-21.11.10:705][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
+[2020.07.22-21.11.10:705][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.22-21.11.10:707][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.22-21.11.10:707][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.22-21.11.10:707][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.22-21.11.10:719][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.22-21.11.10:719][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.22-21.11.10:719][  0]LogWindows: EnumDisplayDevices:
+[2020.07.22-21.11.10:719][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
+[2020.07.22-21.11.10:719][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.22-21.11.10:720][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.22-21.11.10:720][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.07.22-21.11.10:720][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.22-21.11.10:720][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2020.07.22-21.11.10:720][  0]LogD3D11RHI:   Driver Version: 451.48 (internal:27.21.14.5148, unified:451.48)
+[2020.07.22-21.11.10:720][  0]LogD3D11RHI:      Driver Date: 6-21-2020
+[2020.07.22-21.11.10:720][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.07.22-21.11.10:774][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.22-21.11.10:776][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.22-21.11.10:776][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.22-21.11.10:776][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.22-21.11.10:792][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.22-21.11.11:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.22-21.11.11:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.22-21.11.11:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.22-21.11.11:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.22-21.11.11:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.22-21.11.11:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.22-21.11.11:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.22-21.11.11:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.22-21.11.11:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.22-21.11.11:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.22-21.11.11:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.22-21.11.11:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.22-21.11.11:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.22-21.11.11:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.22-21.11.11:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.22-21.11.11:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.22-21.11.11:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.22-21.11.11:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.22-21.11.11:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.22-21.11.11:325][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.22-21.11.11:334][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.22-21.11.11:382][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/haoru/Desktop/TPSGame/firstgame/Intermediate/Shaders/WorkingDirectory/7312/).
+[2020.07.22-21.11.11:382][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/haoru/AppData/Local/Temp/UnrealShaderWorkingDir/459624C841D81FFC1FCE5D960A3E0DA3/'.
+[2020.07.22-21.11.11:383][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.22-21.11.11:383][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.22-21.11.11:383][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.22-21.11.12:089][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/haoru/Desktop/TPSGame/firstgame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/haoru/Desktop/TPSGame/firstgame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.22-21.11.12:140][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.22-21.11.12:151][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.22-21.11.12:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.22-21.11.12:151][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.22-21.11.12:152][  0]LogDerivedDataCache: Using Local data cache path C:/Users/haoru/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.22-21.11.12:152][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.22-21.11.12:152][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.22-21.11.12:201][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.22-21.11.12:201][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.22-21.11.12:223][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.07.22-21.11.12:464][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.22-21.11.12:560][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.22-21.11.12:560][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.22-21.11.12:560][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.22-21.11.12:560][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.22-21.11.12:560][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.22-21.11.12:574][  0]LogNetVersion: firstgame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3518325962)
+[2020.07.22-21.11.12:936][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000280DFA39BC0), frame # 0
+[2020.07.22-21.11.12:936][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000280DF994F40), frame # 0
+[2020.07.22-21.11.12:937][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000280DF9F1E00), frame # 0
+[2020.07.22-21.11.13:013][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.070475 seconds
+[2020.07.22-21.11.13:018][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.22-21.11.13:018][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.22-21.11.13:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.22-21.11.13:312][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.22-21.11.13:316][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.22-21.11.13:404][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.13:404][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.13:407][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.13:409][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.13:415][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.13:619][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.22-21.11.13:636][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.22-21.11.13:637][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.22-21.11.13:682][  0]LogOcInput: OculusInput pre-init called
+[2020.07.22-21.11.13:690][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.22-21.11.13:690][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.22-21.11.13:751][  0]LogEngine: Initializing Engine...
+[2020.07.22-21.11.13:753][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.22-21.11.13:753][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.22-21.11.13:754][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.22-21.11.13:857][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.22-21.11.13:865][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.22-21.11.13:866][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000280E5F1FC00), frame # 0
+[2020.07.22-21.11.13:866][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000280E4FA6AC0), frame # 0
+[2020.07.22-21.11.13:877][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-21.11.13:878][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-21.11.13:878][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-21.11.13:878][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 5: BackRight
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.07.22-21.11.13:888][  0]LogAudioMixer: Display: 7: SideRight
+[2020.07.22-21.11.13:933][  0]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2020.07.22-21.11.13:936][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.22-21.11.13:938][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.22-21.11.13:938][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.22-21.11.13:938][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.22-21.11.13:940][  0]LogInit: FAudioDevice initialized.
+[2020.07.22-21.11.13:940][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.22-21.11.14:022][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/haoru/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.22-21.11.14:027][  0]LogInit: Texture streaming: Enabled
+[2020.07.22-21.11.14:042][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.22-21.11.14:042][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.22-21.11.14:044][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.22-21.11.14:106][  0]LogInit: Transaction tracking system initialized
+[2020.07.22-21.11.14:124][  0]BlueprintLog: New page: Editor Load
+[2020.07.22-21.11.14:190][  0]LocalizationService: Localization service is disabled
+[2020.07.22-21.11.14:337][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.22-21.11.14:337][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.22-21.11.14:453][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/' took 0.01s
+[2020.07.22-21.11.14:616][  0]SourceControl: Source control is disabled
+[2020.07.22-21.11.14:616][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.341
+[2020.07.22-21.11.14:616][  0]Cmd: MAP LOAD FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.22-21.11.14:616][  0]LightingResults: New page: Lighting Build
+[2020.07.22-21.11.14:617][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-21.11.14:617][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-21.11.14:617][  0]MapCheck: New page: Map Check
+[2020.07.22-21.11.14:617][  0]LightingResults: New page: Lighting Build
+[2020.07.22-21.11.14:635][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000280E5F1FC00), frame # 0
+[2020.07.22-21.11.14:635][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000280E4FA6AC0), frame # 0
+[2020.07.22-21.11.14:635][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-21.11.16:995][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.22-21.11.16:995][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000280D9FEFC00), frame # 0
+[2020.07.22-21.11.16:995][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000280D9FAB100), frame # 0
+[2020.07.22-21.11.17:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.22-21.11.17:052][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.07.22-21.11.17:052][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.22-21.11.17:052][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2020.07.22-21.11.17:052][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.437
+[2020.07.22-21.11.17:054][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.780
+[2020.07.22-21.11.17:284][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-21.11.17:292][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-21.11.17:300][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-21.11.17:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-21.11.17:326][  0]LogCollectionManager: Loaded 0 collections in 0.000861 seconds
+[2020.07.22-21.11.17:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Collections/' took 0.00s
+[2020.07.22-21.11.17:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/Developers/haoru/Collections/' took 0.00s
+[2020.07.22-21.11.17:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/Collections/' took 0.00s
+[2020.07.22-21.11.17:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3427 classes and 821 folders.
+[2020.07.22-21.11.17:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.22-21.11.17:765][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.22-21.11.17:771][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.07.22-21.11.17:872][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.22-21.11.17:875][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.22-21.11.17:890][  0]LogSlate: Took 0.006738 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.22-21.11.18:038][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.22-21.11.18:192][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.22-21.11.18:192][  0]LogLoad: (Engine Initialization) Total time: 9.92 seconds
+[2020.07.22-21.11.18:192][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.22-21.11.18:240][  0]LogAssetRegistry: Asset discovery search completed in 6.0179 seconds
+[2020.07.22-21.11.18:244][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.07.22-21.11.18:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.22-21.11.18:297][  0]LogSlate: Took 0.007604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.22-21.11.19:234][ 99]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.22-21.15.07:430][851]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.15.07:482][851]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.07.22-21.15.07:717][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.15.07:726][851]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.07.22-21.15.08:238][851]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.07.22-21.15.09:199][851]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.22-21.15.09:682][851]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.22-21.15.09:841][851]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.22-21.15.09:903][852]LogSlate: Took 0.005852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.22-21.16.57:851][433]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Idle to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Crouch to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Jog to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Idle  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:870][433]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Jog  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.16.57:935][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.07.22-21.16.57:979][433]LogSlate: Took 0.008890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.22-21.16.58:509][459]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/UE4ASP_HeroTPP_AnimBlueprint6988F2EB4AE40491DFB9258A3B29A028.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2020.07.22-21.16.58:535][459]AssetCheck: New page: Asset Save: UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.16.58:535][459]LogContentValidation: Display: Validating AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.17.41:943][257]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.07.22-21.17.47:125][715]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Idle to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Crouch to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Jog to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Idle  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:141][715]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Jog  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.17.47:184][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.07.22-21.17.47:949][770]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/UE4ASP_HeroTPP_AnimBlueprint3D5171B84CEA14E229ECEE8A1DF3C39A.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2020.07.22-21.17.47:966][770]AssetCheck: New page: Asset Save: UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.17.47:966][770]LogContentValidation: Display: Validating AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.17.52:560][178]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2020.07.22-21.17.52:598][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.17.52:631][178]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.22-21.17.53:376][178]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.22-21.17.57:803][520]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2020.07.22-21.17.57:837][520]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-21.17.57:837][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-21.18.11:960][611]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-21.18.11:960][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-21.18.12:004][611]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-21.18.12:004][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-21.18.12:088][611]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-21.18.12:089][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-21.18.44:556][856]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.18.44:575][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Idle to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:575][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Crouch to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:575][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Jog to Reload  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:575][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Idle  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:576][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Crouch  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:576][856]LogBlueprint: Warning: [Compiler UE4ASP_HeroTPP_AnimBlueprint] Reload to Jog  will never be taken, please connect something to  Can Enter Transition
+[2020.07.22-21.18.44:667][856]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.07.22-21.18.45:133][882]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/UE4ASP_HeroTPP_AnimBlueprint0CFFDBA54F2067D12182D29EC284F954.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2020.07.22-21.18.45:150][882]AssetCheck: New page: Asset Save: UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.18.45:150][882]LogContentValidation: Display: Validating AnimBlueprint /Game/ThirdPersonBP/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint
+[2020.07.22-21.18.47:498][ 47]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character
+[2020.07.22-21.19.36:450][279]LogEditorTransaction: Undo Create Pin Link
+[2020.07.22-21.19.36:559][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.19.59:378][679]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.21.32:685][791]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.21.32:785][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.07.22-21.21.33:298][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.21.33:337][826]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_Base51618B794A88EB12FB96EFAA7BC6E269.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.21.33:361][826]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.21.33:362][826]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.21.55:743][459]LogEditorTransaction: Undo Add Node
+[2020.07.22-21.21.55:838][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.56:014][463]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.21.56:115][463]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.56:863][523]LogEditorTransaction: Undo Rename Node
+[2020.07.22-21.21.56:970][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.57:433][562]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.21.57:532][562]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.58:371][639]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.21.58:471][639]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.58:845][672]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.21.58:949][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.21.59:447][718]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.21.59:547][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.22.00:102][767]LogEditorTransaction: Undo Move Node
+[2020.07.22-21.22.00:200][767]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.22.00:529][796]LogEditorTransaction: Undo Create Pin Link
+[2020.07.22-21.22.00:631][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.22.00:964][821]LogEditorTransaction: Undo Create Pin Link
+[2020.07.22-21.22.01:062][821]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.22.01:380][849]LogEditorTransaction: Undo Add Node
+[2020.07.22-21.22.01:479][849]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.22-21.22.47:608][324]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.22.47:686][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.07.22-21.22.48:149][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.22.48:183][353]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_Base1B3C49024948497EB509169C6C162289.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.22.48:203][353]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.22.48:203][353]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.23.23:363][417]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.23.23:379][417]LogBlueprint: Error: [Compiler Weapon_Base] The property associated with  Is Reloading  could not be found in '/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base_C'
+[2020.07.22-21.23.23:448][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.07.22-21.23.23:799][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.23.23:832][441]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_Base18ED93E1409BC25C2115728BD9879F55.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.23.23:849][441]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.23.23:849][441]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.24.41:785][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.07.22-21.24.41:787][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.040
+[2020.07.22-21.24.41:789][668]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character] ([1] browsable assets)...
+[2020.07.22-21.24.41:805][668]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character]
+[2020.07.22-21.24.41:805][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character]
+[2020.07.22-21.24.41:880][668]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Ue4ASP_Character_Auto13E2B5CE540C87016EA8B28B19B33C9EF.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Autosaves/Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character_Auto1.uasset'
+[2020.07.22-21.24.41:883][668]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base] ([1] browsable assets)...
+[2020.07.22-21.24.41:883][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base]
+[2020.07.22-21.24.41:915][668]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_Base_Auto13515A84E4B5E46D386E9E48D529C30EA.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base_Auto1.uasset'
+[2020.07.22-21.24.41:918][668]LogFileHelpers: Auto-saving content packages took 0.131
+[2020.07.22-21.26.03:187][517]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.26.03:203][517]LogBlueprint: Error: [Compiler Weapon_Base] The property associated with  Is Reloading  could not be found in '/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base_C'
+[2020.07.22-21.26.03:203][517]LogBlueprint: Error: [Compiler Weapon_Base] The property associated with  Is Reloading  could not be found in '/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base_C'
+[2020.07.22-21.26.03:254][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.07.22-21.26.03:815][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.26.03:848][554]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_BaseB11E07B24AA6B28039D5F7B02718A6BF.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.26.03:870][554]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.26.03:870][554]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.27.19:874][498]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Ue4ASP_Character028FCFE243DE3B1EFE352AABBCCB25F8.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.uasset'
+[2020.07.22-21.27.19:893][498]AssetCheck: New page: Asset Save: Ue4ASP_Character
+[2020.07.22-21.27.19:893][498]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character
+[2020.07.22-21.27.21:248][609]BlueprintLog: New page: Compile Ue4ASP_Character
+[2020.07.22-21.27.21:347][609]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.07.22-21.27.24:624][840]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.27.24:717][840]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.07.22-21.27.25:232][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.27.25:273][873]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_Base0A4F798E4095FE2FEB78C1A272F44023.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.27.25:292][873]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.27.25:292][873]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.27.39:316][ 36]BlueprintLog: New page: Compile Weapon_Base
+[2020.07.22-21.27.39:435][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.07.22-21.27.39:849][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base" FILE="C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset" SILENT=true
+[2020.07.22-21.27.39:890][ 62]LogSavePackage: Moving 'C:/Users/haoru/Desktop/TPSGame/firstgame/Saved/Weapon_BaseD1BBC379469DB598D51ABCB3EF65BC2B.tmp' to 'C:/Users/haoru/Desktop/TPSGame/firstgame/Content/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.uasset'
+[2020.07.22-21.27.39:910][ 62]AssetCheck: New page: Asset Save: Weapon_Base
+[2020.07.22-21.27.39:910][ 62]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/Weapon_Base.Weapon_Base
+[2020.07.22-21.27.41:767][192]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2020.07.22-21.27.41:768][192]LogWindows: Windows GetLastError: The operation completed successfully. (0)
